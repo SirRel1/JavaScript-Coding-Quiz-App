@@ -9,4 +9,7 @@ When the last page is arrived at there is an option to clear the score screen/lo
 I enjoyed this process and learned a ton through trial and error! I ultimately have more ideas but will release this 'alpha' version 'CQ.1' until further updates reveal themselves! Here is a screenshot of the application and links...
 
 -SirRel
+
+Deployed GH Page: https://sirrel1.github.io/JavaScript-Coding-Quiz-App/
+
 ![Screenshot (5)](https://user-images.githubusercontent.com/89208706/142749300-20700d8f-a0f1-418a-9e64-9c3d947ded9b.png)
