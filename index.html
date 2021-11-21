@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/quiz.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sirin+Stencil&display=swap" rel="stylesheet">
+    
+    <title>Rell's Code Quiz</title>
+</head>
+<body class="" id="body">
+    <h1>JavaScript Coding Quiz</h1>
+    <h2 class="score">Points:<span id="points"></span></h2>
+    <h3 class="appear">Time Left:<span id="countdown"></span></h3>
+    <div id='show' class="hide">
+        <div id="text">
+            <strong>Question:<span id="count">1</span> <br></strong>
+                <hr>
+            <div class="questions">
+                <span id="questChange">
+                    Which symbols are used for comments in JavaScript?
+
+                
+                </span>
+                <div class="select">
+                    <label for="A">
+                        <input class="radButts" type="radio" name="radAns" value="A" > A).
+                        <p id="choice1">//</p>
+                    </label>
+                
+                
+                    <label for="B">
+                        <input class="radButts" type="radio" name="radAns" value="B"> B).
+                        <p id="choice2">#</p>
+                    </label>
+                
+                
+                    <label for="C">
+                        <input class="radButts" type="radio" name="radAns" value="C"> C).
+                        <p id="choice3">!-- --!</p>
+                    </label>
+                
+                    <label for="D">
+                        <input class="radButts" type="radio" name="radAns" value="D"> D).
+                        <p id="choice4">()</p>
+                    </label>
+                </div>
+               
+            </div>
+
+            
+            
+
+        </div>
+        
+            
+
+        <button class="btn">>></button>
+        <button class="btn-1">submit</button>
+    </div>
+<h4 class="">This is a quiz on your JavaScript knowledge.
+    You have 1 minute to complete 5 questions.
+    Every correct answer is worth 20points!
+    Wrong answers will deduct -10 from your points.
+    (Press 'submit' after selection!)
+    Try to get a new highscore & beat the clock! Good Luck!
+</h4>
+
+    <button id="startQ" class="start">Start Quiz!</button>
+    <button class="refresh">Restart</button>
+<div id="revelation" class="hide">
+    <section id="reveal">
+
+        <p id="top" class="reveal">Top 3 Scores:</p>
+        <p></p>
+        <p></p>
+    <ol id="listing">
+        <li class="reveal" id="uno"></li>
+            
+        <li class="reveal" id="dos"></li> 
+
+        <li class="reveal" id="tres"></li> 
+        <button id="clear" class="clear">Clear Scores</button> 
+        </li>
+    </ol>
+
+
+    </section>
+</div>
+    
+
+
+
+    
+</body>
+<footer>By SirRel</footer>
+</html>
+<script src="./assets/quiz.js"></script>
